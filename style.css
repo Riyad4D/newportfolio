@@ -1,5 +1,30 @@
-header{
-    height: 113px;
-    width: 1980px;
+nav{
     background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.logo{
+    height: 111px;
+    width: 100px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    color: black;
+}
+nav li{
+    margin-left: 80px;
+    
+}
+.primary-button{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px solid white;
+}
+nav  li a {
+    text-decoration: none;
 }
